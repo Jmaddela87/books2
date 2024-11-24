@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joe's Book Recommendations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .book {
+      background: white;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .book h2 {
+      margin: 0;
+      color: #4CAF50;
+    }
+    .book img {
+      float: right;
+      margin-left: 1rem;
+      width: 120px;
+      height: auto;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Joe's Book Recommendations</h1>
+  </header>
+  <nav>
+    <a href="#fiction">Fiction</a>
+    <a href="#non-fiction">Non-Fiction</a>
+    <a href="#classics">Classics</a>
+  </nav>
+  <div class="container">
+    <section id="fiction">
+      <h2>Fiction</h2>
+      <div class="book">
+        <h3>The Great Gatsby</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/TheGreatGatsby_1925jacket.jpeg" alt="The Great Gatsby">
+        <p><strong>Author:</strong> F. Scott Fitzgerald</p>
+        <p>A classic novel set in the Jazz Age, exploring themes of wealth, love, and the American Dream.</p>
+      </div>
+      <div class="book">
+        <h3>1984</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg" alt="1984">
+        <p><strong>Author:</strong> George Orwell</p>
+        <p>A dystopian masterpiece depicting a world of surveillance and totalitarian control.</p>
+      </div>
+    </section>
+    <section id="non-fiction">
+      <h2>Non-Fiction</h2>
+      <div class="book">
+        <h3>Sapiens: A Brief History of Humankind</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Sapiens_A_Brief_History_of_Humankind.jpg" alt="Sapiens">
+        <p><strong>Author:</strong> Yuval Noah Harari</p>
+        <p>An exploration of humanity's history, from the Stone Age to the modern world.</p>
+      </div>
+    </section>
+    <section id="classics">
+      <h2>Classics</h2>
+      <div class="book">
+        <h3>Pride and Prejudice</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/PrideAndPrejudiceTitlePage.jpg" alt="Pride and Prejudice">
+        <p><strong>Author:</strong> Jane Austen</p>
+        <p>A timeless romance about love, class, and social expectations in 19th-century England.</p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Joe's Book Recommendations. All rights reserved.</p>
+  </footer>
+</body>
+</html>
